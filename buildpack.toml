@@ -1,0 +1,11 @@
+[buildpack]
+name = "create-react-app"
+
+  [publish.Ignore]
+  files = [
+      "etc/",
+      "test/",
+      ".github/",
+      ".travis.yml",
+      "makefile"
+  ]
